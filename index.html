@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <title>todo</title>
+</head>
+<body>
+    <div class="listbox">
+        <form action="">
+            <label for="title">Title</label>
+            <input type="text" id="title">
+
+
+            <label for="date">Date</label>
+            <input type="date" id="ddates">
+
+            <label for="activies">Actives</label>
+            <textarea name="actives" id="activesArea" cols="30" rows="10"></textarea>
+        </form>
+
+        <button onclick="storeInformation()">Create</button>
+    </div>
+
+    <div class="todobox">
+        <div class="createsection">
+            <button onclick="showBox()">Create</button>
+        </div>
+        <div items class="createdlist">
+            <div class="shortform">
+                <div class="shortbox"></div>
+            </div>
+            <div class="displaysection">
+                <div class="maindisplay"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/js/js.js"></script>
+    
+</body>
+</html>
